@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Page-Enter" content="revealTrans(Duration=1.0,Transition=9)">
+
+        <title>Upminster</title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/newstyle.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="http://i.icomoon.io/public/48159919ac/test/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+    <!-- Linking scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+
+    <script type="text/javascript"></script>
+</head>
+
+<body>
+	<header id="cf6_image">
+        <nav class="nav">
+            <div class="nav_txt">
+                <a href="#about_us"> About Us </a> 
+                <a href="http://www.c2c-online.co.uk/our-route/upminster/" target="_blank" title="Commuting from Upminster"> Nearby Destinations </a> 
+                <a href="http://www.upminster.com/information/mapof.htm" target="_blank"> Maps </a>
+                <a href="http://www.itv.com/news/london/topic/upminster/" target="_blank"> News </a>
+                <a href="https://www.havering.gov.uk/Pages/ServiceChild/Upminster-town-centre-history.aspx" target="_blank"> History </a> 
+                <a href="#contact_us"> Contact Us </a>
+
+            </div>
+        </nav>
+
+		<center>
+			<p class="heading">Explore more in Upminster</p><br>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://twitter.com/UpminsterInfo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Tweet</a>
+
+                <script>
+                !function(d,s,id)
+                {
+                    var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+                    if(!d.getElementById(id)){
+                        js=d.createElement(s);
+                        js.id=id;
+                        js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);
+                    }}(document, 'script', 'twitter-wjs');
+                </script>
+		</center>
+
+		<div>
+			<div class="transbox" >
+                <center>
+    				<p class="options" id="show-all">
+
+    					<a href="#local_dining"><figure><i class="material-icons" style="font-size: 100px;">restaurant</i><figcaption>Local Dining</figcaption></figure></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    					<a href="#sight_seeing"><figure><i class="material-icons" style="font-size: 100px;">beach_access</i><figcaption>Sight Seeing</figcaption></figure></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    					<a href="#activities"><figure><i class="material-icons" style="font-size: 100px;">pool</i><figcaption>Things to Do</figcaption></figure></a><br>
+
+                        <a class="arrow bounce scrollto" href="#content"><i class="material-icons" style="font-size: 80px;">arrow_drop_down_circle</i></a>
+                        
+                    </p>
+                </center>
+
+			</div>            
+		</div>
+	</header>
+
+    <main id="content">
+        <div id="about_us" >
+            <center><h1 class="about_us_heading">About Us</h1></center>
+            <article class="notes" >Upminster is a suburban town in east London, England, and part of the London Borough of Havering. Located 16.5 miles (26.6 km) east-northeast of Charing Cross, it is one of the locally important district centres identified in the London Plan, and comprises a number of shopping streets and a large residential area. It was historically, a rural village in Essex and formed an ancient parish. Although peripheral to London, the town has good transport links; it was first connected to central London by rail in 1885 and has a terminal station on the London Underground network. The economic history of Upminster is characterised by a shift from farming to garden suburb. As part of the suburban growth of London in the 20th century, Upminster significantly expanded and increased in population, becoming part of Hornchurch Urban District in 1934, and has formed part of Greater London since 1965.</article>
+
+            <section class="change_img">
+
+                <img src="images/up1.jpg" alt="grt " id="Img">
+                <script>
+                    var x = 0;
+                    var images = new Array("images/up1.jpg","images/up2.jpg","images/up3.jpg", "images/up4.jpg", "images/pic3.jpg", "images/pic2.jpg", "images/pic4.jpg");
+                    var i = setInterval(auto, 3000);
+
+                    function auto()
+                    {
+                        x++;
+                        if (x == images.length)
+                        x=0;
+                        document.getElementById('Img').src=images[x];      
+                    }
+
+                </script>
+            </section>
+        </div>
+
+        <div class="sections">
+
+            <section id="local_dining">
+                <h1 id="title"> LOCAL DINING </h1>
+                    <marquee id="target1"> For 10 best Restaurants in Upminster <a href="https://www.tripadvisor.co.uk/Restaurants-g1635501-Upminster_Greater_London_England.html"> Click Here </a>!</marquee>  
+                    <script>
+                        var string = document.getElementById("target").innerHTML;
+                        var characters = string.split("");
+
+                        setInterval (function() 
+                        {
+                        var lastCharacter = characters.pop();
+                        characters.unshift(lastCharacter);
+                        document.getElementById("target").innerHTML = characters.join("");
+                        }, 700);
+                    </script>
+                        
+                <div class="food_options">
+                    <!--//To detect <template>, create the DOM element and check that the .content property exists:
+                    <script>
+                        function supportsTemplate() {
+                          return 'content' in document.createElement('template');
+                        }
+
+                        if (supportsTemplate()) {
+                          alert("done");
+                        } else {
+                          alert(" not done");// Use old templating techniques or libraries.
+                        }
+                    </script> Output was done-->
+
+                    <template id="temp">
+                        <div class="food_options_wrap">
+                            <a href="https://www.zomato.com/london/upminster-restaurants" target="_blank">
+                                <img src="" alt="great photo">
+                            </a> 
+                            <p class="caption"></p> 
+                        </div>  
+                    </template>
+
+                    <script>
+                       
+                        var arr= [
+
+                        {image:'images/breakfast.jpg', name:'Breakfast'}, 
+                        {image:'images/lunch.jpg', name:'Dinner'}, 
+                        {image:'images/cafes.jpg', name:'Cafes'}, 
+                        {image:'images/drinks.jpg', name:'Drinks & Nightlife'}, 
+                        {image:'images/takeaway.jpg', name:'Takeaway'}, 
+                        {image:'images/Fishandchips.jpg', name:'Fish & Chips'},
+                        {image:'images/indian1.jpg', name:'Indian Cuisine'},
+                        {image:'images/Luxury.jpg', name:'Luxury Dining'}
+
+                        ]
+
+                        var template = document.querySelector('#temp');
+                            for(var i=0; i<arr.length; i++){
+                                var box= arr[i];
+                                var clone = template.content.cloneNode(true);
+
+                                var img = clone.querySelectorAll('img');
+                                img[0].src= box.image;
+
+                                var p = clone.querySelectorAll('p');
+                                p[0].innerHTML= box.name;
+
+                                template.parentNode.appendChild(clone);
+                            }
+                    </script>
+                </div>
+
+            </section>
+
+
+            <section id="sight_seeing">
+                <h1 id="title"> SIGHT SEEING </h1>
+                <marquee id="target2">For any queries contact <a href="http://www.information-britain.co.uk/county26/townguideUpminster/">Upminster Information Centre</a></marquee>
+
+                <script>
+                    var string = document.getElementById("target").innerHTML;
+                    var characters = string.split("");
+
+                    setInterval (function() 
+                    {
+                    var lastCharacter = characters.pop();
+                    characters.unshift(lastCharacter);
+                    document.getElementById("target").innerHTML = characters.join("");
+                    }, 700);
+                </script>
+
+                <div class="sights_options">
+                    
+                    <template id="temp1">
+                        <div class="sight_options_wrap">
+                            <a href="http://www.visitlondon.com/discover-london/london-areas/places/upminster" target="_blank">
+                                <img src="" alt="great photo">
+                            </a> 
+                            <p class="caption"></p> 
+                        </div>  
+                    </template>
+
+                    <script>
+                       
+                        var arr1= [
+
+                        {image:'images/wind.jpg', name:'Upminster Windmill'}, 
+                        {image:'images/Thames.jpg', name:'Thames Chase'}, 
+                        {image:'images/garden.jpg', name:'Ingrebourne Valley Garden'}, 
+                        {image:'images/Barn.jpg', name:'Tithe Barn Museum of Nostalgia'}, 
+                        {image:'images/hall.jpg', name:'Damyns Hall Aerodrome'}, 
+                        {image:'images/Farmer.jpg', name:'Upminster Farmers Market'},
+                        {image:'images/pizza.jpg', name:'Pizza Express'},
+                        {image:'images/church.jpg', name:'St Andrews Church Hornchurch'}
+
+                        ]
+
+                        var template = document.querySelector('#temp1');
+                            for(var i=0; i<arr1.length; i++){
+                                var box= arr1[i];
+                                var clone = template.content.cloneNode(true);
+
+                                var img = clone.querySelectorAll('img');
+                                img[0].src= box.image;
+
+                                var p = clone.querySelectorAll('p');
+                                p[0].innerHTML= box.name;
+
+                                template.parentNode.appendChild(clone);
+                            }
+                    </script>
+                </div>
+
+            </section>
+
+            <section id="activities">
+                <h1 id="title">Things To Do</h1>
+                <marquee id="target3"> For reviews and best Attractions view: <a href="https://www.tripadvisor.co.uk/Attractions-g1635501-Activities-Upminster_Greater_London_England.html"> www.tripadvisor.co.uk </a></marquee>
+
+                <script>
+                    var string = document.getElementById("target");
+                    var characters = string.split("");
+
+                    setInterval (function() 
+                    {
+                    var lastCharacter = characters.pop();
+                    characters.unshift(lastCharacter);
+                    document.getElementById("target3") = characters.join("");
+                    }, 700);
+                </script>
+
+                <div class="activities_options">
+                    
+                    <template id="temp2">
+                        <div class="activities_options_wrap">
+                            <a href="https://www.tripadvisor.co.uk/Attractions-g1635501-Activities-Upminster_Greater_London_England.html" target="_blank">
+                                <img src="" alt="great photo">
+                            </a> 
+                            <p class="caption"></p> 
+                        </div>  
+                    </template>
+
+                    <script>                       
+                        var arr2= [
+
+                        {image:'images/Paintball.jpg', name:'Delta Force Paintball'}, 
+                        {image:'images/stubbers.jpg', name:'Stubbers Activity Centre'}, 
+                        {image:'images/pic1.jpg', name:'Crumpled Horn'}, 
+                        {image:'images/timbuk.jpg', name:'Timbuk 2'}, 
+                        {image:'images/woods.jpg', name:'Cely Woods'}, 
+                        {image:'images/bus.jpg', name:'Essex Minibuses 24'},
+                        {image:'images/san.jpg', name:'Upminster Sanctuary'},
+                        {image:'images/7.jpg', name:'Platform 7 bar'}
+
+                        ]
+                        var template = document.querySelector('#temp2');
+                            for(var i=0; i<arr2.length; i++){
+                                var box= arr2[i];
+                                var clone = template.content.cloneNode(true);
+
+                                var img = clone.querySelectorAll('img');
+                                img[0].src= box.image;
+
+                                var p = clone.querySelectorAll('p');
+                                p[0].innerHTML= box.name;
+
+                                template.parentNode.appendChild(clone);
+                            }
+                    </script>
+                </div>
+            </section>            
+
+            <script>
+                var showall= document.getElementById('show-all');
+                showall.onclick= function(){
+                    var sections = querySelectorAll('section')
+                    {
+                        for (var i = 0; i < sections.length; i++){
+                            sections[i].className= 'force-show';
+                            //sections[1].className= 'sight_seeing';
+                            //sections[2].className= 'activities';
+                        }
+
+                    }
+                }
+            </script>
+        </div>
+        
+        
+    </main>
+    <footer id="contact_us" class="contact_us">
+        <p class="contact">&copy; 2016 By Suryatapa<br><a class="link" href="http://www.google.com/" style="color= white;">Privacy Policy</a><br />
+        </p>
+    </footer>
+</body>
+</html>
